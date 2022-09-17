@@ -1,3 +1,27 @@
 * {
   box-sizing: border-box;
 }
+.header,
+.main,
+.left,
+.right,
+.footer {
+  border: 2px solid black;
+  min-height: 100px;
+  margin: 0.5em;
+}
+.flex {
+  display: flex;
+}
+.main {
+  flex-basis: 200px;
+  flex-grow: 1;
+  min-height: 74vh;
+}
+.left {
+  flex-basis: 200px;
+  order: -1;
+}
+.right {
+  flex-basis: 200px;
+}
