@@ -33,4 +33,13 @@
   flex-basis: 25%;
   flex-grow: 1;
   margin: 0.5em;
+  background-color: papayawhip;
+  text-align: center;
+  padding: 1em;
+}
+.title {
+  font-size: 25px;
+}
+.text {
+  font-size: 17px;
 }
